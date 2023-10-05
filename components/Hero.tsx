@@ -4,7 +4,9 @@ import { CustomButton } from ".";
 import Image from "next/image";
 
 const Hero = () => {
-  const handleScroll = () => {};
+  const handleScroll = () => {
+    document.getElementById("catalogue").scrollIntoView();
+  };
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
